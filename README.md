@@ -19,7 +19,7 @@ According to the problem we must run two threads parallel to the main thread and
     * Epf by employee = Basic salary * 0.08
     *  Epf by employer = Basic salary * 0.12
 
-To solve this problem, I used the **Future currency object** method. First I have imported the **java.util.concurrent.** package which is most commonly used for asynchronous programming.Inside the main method, created two separate tasks using **future task** that can run parallelly and created two threads to fulfill necessary tasks. 2nd task is created as an array because it has two calculations to do under the thread (Epf by employee, Epf by employee). 
+<p align="center"> To solve this problem, I used the **Future currency object** method. First I have imported the **java.util.concurrent.** package which is most commonly used for asynchronous programming.Inside the main method, created two separate tasks using **future task** that can run parallelly and created two threads to fulfill necessary tasks. 2nd task is created as an array because it has two calculations to do under the thread (Epf by employee, Epf by employee). 
 Next, run two tasks, call the tasks, and assign their results to new variables for calculating the final salary. 
-Finally print the final result.
+Finally print the final result. </p>
 
