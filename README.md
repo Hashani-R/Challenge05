@@ -4,10 +4,10 @@
 <p align="justify"> This is a simple program that is done to explain and practice Threads in java. Thread is a flow of execution. Multiple threads mean multiple flows of execution. Threads allow a program to operate more efficiently by doing multiple things at the same time. It can be used to perform complicated tasks in the background without interrupting the main program just like a virtual CPU that can execute code inside of the java application. When threads execute, the priority of each thread varies. Higher-priority threads are executed before lower-priority threads.</p> <div>
 There are few ways of creating threads: 
 	<ol>
-  	1. Extend the “Thread” class and overriding its run () method.
+  	<li> 1. Extend the “Thread” class and overriding its run () method.
         2. Implement the runnable method.
         3. Using Manual thread object.
-	4. Using future concurrency object. </ol> </div>
+	4. Using future concurrency object. </li></ol> </div>
                                                                      
 According to the problem we must run two threads parallel to the main thread and should get the returned values from those to the main thread to calculate the final salary. 
 
